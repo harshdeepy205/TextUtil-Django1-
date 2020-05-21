@@ -1,0 +1,22 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>template is working</title>
+</head>
+<body>
+    <h1>Welcome to text analayzer. Enter your text</h1>
+    <form action="/analyze" method="get">
+    <textarea name="text" style="margin: 0px; width: 763px; height: 196px;"> </textarea><br/>
+        <input type="checkbox" name="removepunc">Remove Puntuations<br>
+        <input type="checkbox" name="fullcaps">UpperCase<br>
+        <input type="checkbox" name="newlineremover">LineRemover<br>
+        <input type="checkbox" name="extraspace">ExtraSpace<br>
+{#        <input type="checkbox" name="charcount">CharCount<br>#}
+
+    <button type="submit">Analyze Text</button>
+    </form>
+</body>
+</html>
